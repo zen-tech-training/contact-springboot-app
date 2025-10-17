@@ -25,6 +25,7 @@ public class ContactController {
 	static {
 		contactList.add(new Contact("Tom", 11111));
 		contactList.add(new Contact("Jerry", 22222));
+		contactList.add(new Contact("Bipin", 33333));
 	}
 
 	@GetMapping("/contact")
