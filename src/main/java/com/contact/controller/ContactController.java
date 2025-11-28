@@ -51,9 +51,9 @@ public class ContactController {
 		System.out.println("createNewContact(): " + contact);
 		return new ResponseEntity<Contact>(contact, HttpStatus.CREATED);
 	}
-// @GetMapping("/hello")
-// 	public ResponseEntity<String> sayHello() {
-// 		return new ResponseEntity<String>("Hello New Image created and Deployed....", HttpStatus.OK);
-// 	}
+@GetMapping("/hello")
+	public ResponseEntity<String> sayHello() {
+		return new ResponseEntity<String>("Hello New Image created and Deployed....", HttpStatus.OK);
+	}
 
 }
